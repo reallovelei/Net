@@ -36,11 +36,11 @@ EV_DELETE| 删除事件    |   是   |
 EV_DISABLE| 禁用事件但不删除    |   是   | 
 EV_ENABLE | 启用之前被禁用的事件    |   是   | 
 EV_ONESHOT | 触发一次后删除事件    |   是   | 
--------- | --------- |  ----- | ------   
 EV_EOF | 发生EOF条件   |  | 是
 EV_ERROR | 发生错误:errno值在data成员中 |  | 是
 
 filter: 指定的过滤器类型
+
 flag     | 描述      
 -------- | ---------   
 EVFILT_AIO | 异步I/O事件  
