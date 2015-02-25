@@ -36,7 +36,7 @@ EVFILT_READ | 检测描述符什么时候可读, 类似select
 EVFILT_WRITE | 检测描述符什么时候可写,类似select  
 EVFILT_SIGNAL | 收到信号  
 EVFILT_TIMER | 周期性或一次性的定时器  
-EVFILT_VNODE | 文件修改和删除事件  
+EVFILT_VNODE | 检测文件系统上文件修改和删除事件  
 
 
 flags: 是在调用时指定过滤器更改行为，在返回时额外给出条件。(告诉内核应当对该事件完成哪些操作和处理哪些必要的标志，返回时，flags可用于保存错误条件)  
