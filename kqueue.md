@@ -75,5 +75,5 @@ nevents 是指eventlist有几个kevent.
 timeout kevent期待的超时时间。为NULL,kevent将阻塞,直至有事件发生为止。不为NULL，则kevent将阻塞到超时为止。  
 
 #### 代码部分
-[见示例代码](http://www.)
+[见示例代码](https://github.com/reallovelei/Net/blob/master/server.c)
 
