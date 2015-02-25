@@ -72,5 +72,8 @@ changelist 是一个大小为nchanges的kevent结构体数组。changelist参数
 nchanges 是指changelist有几个kevent。  
 eventlist 是一个大小为nevents的kevent结构体数组。(kevent通过把事件放在eventlist参数中来向调用进程返回事件[如果需要的话,eventlist和changelist可以指向同一个数组]).  
 nevents 是指eventlist有几个kevent.  
-timeout kevent期待的超时时间。为NULL,kevent将阻塞,直至有事件发生为止。不为NULL，则kevent将阻塞到超时为止。
+timeout kevent期待的超时时间。为NULL,kevent将阻塞,直至有事件发生为止。不为NULL，则kevent将阻塞到超时为止。  
+
+#### 代码部分
+[见示例代码](http://www.)
 
